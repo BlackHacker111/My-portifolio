@@ -16,5 +16,5 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 [Click here to view live site](https://your-live-link.com)
 
 ## 📧 Contact
-- Email: your-email@example.com
+- Email: toneswar.tadi@sasi.ac.in
 - GitHub: [BlackHacker111](https://github.com/BlackHacker111)
