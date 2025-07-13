@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Personal Portfolio Website Design | Codehal</title>
+  <!-- favicon -->
+  <link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" type="image/x-icon" href="/images/fav.png">
+
+  <!-- box icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- header design -->
+  <header class="header">
+    <!-- Image placed at top-left corner -->
+    <img src="images/fav.png" class="favicon-position" alt="Favicon Image">
+    <a href="#" class="logo">portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Toneswar Reddy</h1>
+      <h3>And I'am a <span id="dynamic-text" class="typing"></span></h3>
+      <p> Hi, I'm Tony, a 3rd-year B.Tech student and I am a passionate front-end developer with a
+        strong interest in creating user-friendly and visually appealing websites.I enjoy working
+        with HTML, CSS, JavaScript, and modern frameworks to build interactive web experiences.</p>
+
+      <div class="social-media">
+        <a href="https://www.facebook.com/tonyreddy.tonyreddy.3" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-facebook'></i></a>
+        <a href="https://x.com/i/flow/login?lang=en" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-twitter'></i></a>
+        <a href="https://www.instagram.com/tony__7781/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/tadi-toneswarreddy-0b5726280/" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-linkedin'></i></a>
+      </div>
+      <a href="https://frabjous-nasturtium-6d0663.netlify.app " target="_blank" rel="noopener noreferrer"
+        class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="images/fist1.png" alt="" />
+    </div>
+  </section>
+
+  <!-- about section design -->
+  <section class="about" id="about" style="background-color: var(--bg-color);">
+    <div class="about-img">
+      <img src="images/secnd1.png" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About<span>Me</span></h2>
+      <h3>Frontend Developer</h3>
+      <p>Hi, I'm Toneswar Reddy, a passionate B.Tech student with a keen interest in technology and innovation. I'm
+        constantly exploring new ideas and honing my skills to create impactful solutions. With a strong foundation in
+        problem-solving, I'm excited to collaborate on projects that push the boundaries of what's possible. Welcome to
+        my portfolio</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!-- skills section design -->
+  <section class="skills" id="skills">
+    <div class="main">
+      <span>technical and proffesional</span>
+      <h2>My Skills</h2>
+    </div>
+
+    <div class="skill-main">
+      <div class="skill-left">
+        <h3>technical Skills</h3>
+        <div class="skill-bar">
+          <div class="info">
+            <p>HTML</p>
+            <P>85%</P>
+          </div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>CSS</p>
+            <P>60%</P>
+          </div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>Javascript</p>
+            <P>62%</P>
+          </div>
+          <div class="bar">
+            <span class="javascript"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>Bootstrap</p>
+            <P>72%</P>
+          </div>
+          <div class="bar">
+            <span class="bootstrap"></span>
+          </div>
+        </div>
+
+      </div>
+
+      <!--            skills right        -->
+
+      <div class="skill-right">
+        <h3>Professioinal Skills</h3>
+        <div class="professional">
+          <div class="box">
+            <div class="circle" data-dots="70" data-percent="90"></div>
+            <div class="text">
+              <big>90%</big>
+              <small>Team Work</small>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="circle" data-dots="70" data-percent="80"></div>
+
+            <div class="text">
+              <big>80%</big>
+              <small>Creativity</small>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="circle" data-dots="70" data-percent="70"></div>
+
+            <div class="text">
+              <big>70%</big>
+              <small>Communication</small>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="circle" data-dots="70" data-percent="55"></div>
+
+            <div class="text">
+              <big>55%</big>
+              <small>newskills</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+
+  <!-- porject section design -->
+  <section class="projects" id="projects">
+
+    <div class="main">
+      <header>
+        <h1>My Projects</h1>
+        <p>A showcase of my recent work spanning web development and design</p>
+      </header>
+    </div>
+    <main>
+      <div class="projects-grid" id="projects-container">
+        <!-- Projects will be inserted here by JavaScript -->
+      </div>
+    </main>
+
+  </section>
+  <!-- contact section design -->
+  <section class="contact" id="contact">
+    <div class="contact-section">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- footer design -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>copyright &copy; 2025 by TONY | All Rights Reserved</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+
+
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('.typing', {
+      strings: ["Frontend Developer", "Web Designer", "Fresher"],
+      typeSpeed: 100,
+      backSpeed: 70,
+      loop: true
+    });
+  </script>
+
+  <!-- custom js -->
+  <script src="script.js"></script>
+</body>
+
+</html>
