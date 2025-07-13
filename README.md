@@ -13,7 +13,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - Interactive sections
 
 ## 📂 Live Demo
-[Click here to view live site](https://your-live-link.com)
+[Click here to view live site](https://tonyportifolio.netlify.app/)
 
 ## 📧 Contact
 - Email: toneswar.tadi@sasi.ac.in
